@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BasestyleTextView" parent="android:Widget.TextView">
+
+    </style>
+
+    <style name="BasestyleTextView.TitreStyle">
+
+    </style>
+
+    <style name="BasestyleTextView.TResStyle">
+
+    </style>
+
+    <style name="LabelStyle" parent="android:Widget.TextView">
+
+    </style>
+
+    <style name="EditTextStyle" parent="android:Widget.EditText">
+
+    </style>
+
+    <style name="ButtonStyle" parent="android:Widget.Button">
+
+    </style>
+
+    <style name="RadioButtonStyle" parent="android:Widget.CompoundButton.RadioButton">
+
+    </style>
+</resources>
