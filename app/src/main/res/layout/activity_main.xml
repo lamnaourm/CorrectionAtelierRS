@@ -59,7 +59,7 @@
         <Button
             android:id="@+id/b2"
             style="@style/ButtonStyle"
-            android:text="@string/bouton1" />
+            android:text="@string/bouton2" />
     </LinearLayout>
 
     <TextView

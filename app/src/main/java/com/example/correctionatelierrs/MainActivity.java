@@ -39,11 +39,12 @@ public class MainActivity extends AppCompatActivity {
                 double val = Double.valueOf(e.getText().toString());
                 if(rg.getCheckedRadioButtonId()==R.id.rd1){
                     taux = getResources().getInteger(R.integer.dollar_taux);
+                    t.setText(String.format(getString(R.string.val_res1),val/taux));
                 }else {
                     taux = getResources().getInteger(R.integer.euro_taux);
+                    t.setText(String.format(getString(R.string.val_res2),val/taux));
                 }
 
-                t.setText(String.format("%.2f",val/taux));
             }
         });
 

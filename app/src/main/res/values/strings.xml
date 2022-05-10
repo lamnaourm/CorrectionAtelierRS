@@ -10,5 +10,7 @@
     <string name="bouton1">Convertir</string>
     <string name="bouton2">Initialiser</string>
     <string name="default_res">Montant en Euro : 0.00</string>
+    <string name="val_res1">Montant en Dollar : %.2f</string>
+    <string name="val_res2">Montant en Euro : %.2f</string>
 
 </resources>
